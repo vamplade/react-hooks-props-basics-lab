@@ -1,0 +1,53 @@
+.student-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: #1a1a1a;
+    max-width: 300px;
+    margin: auto;
+}
+
+.student-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.student-photo {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 12px rgba(0, 183, 255, 0.7);
+    margin-bottom: 1.2rem;
+}
+
+.student-name {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 1rem;
+}
+
+.student-detail {
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    border-radius: 8px;
+    margin: 0.5rem 0;
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+}
+
+
+/* Specific backgrounds for each field */
+
+.student-detail.age {
+    background-color: #ff6f61;
+}
+
+.student-detail.course {
+    background-color: #4caf50;
+}
